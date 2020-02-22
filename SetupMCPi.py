@@ -11,3 +11,7 @@ try:
     #subprocess.call('wget https://github.com......')
 except:
     print("Setup failed")
+    p=subprocess.Popen('a.exe args',shell=True)
+    p.kill()
+    
+print("Setup Success")
