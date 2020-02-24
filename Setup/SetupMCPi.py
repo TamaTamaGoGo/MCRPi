@@ -1,19 +1,28 @@
 from tkinter import messeagebox
 import subprocess
 
+def c(check, command):
+    if check = y:
+        subprocess.check_call(command)
+    else:
+        subprocess.call(command)
 
 try:
     #subprocess.call('mkdir Download MCPi')
-    subprocess.check_call('mkdir MCPi')
+    c.(y, 'mkdir MCPi')
  #   subprocess.check_call('./SetupMCPi')
-    subprocess.check_call('sudo apt-get install -y')
+    # askquestion
+    res = messagebox.askquestion("Info", "Do you want to update your Raspi? Sometime it takes a long time!")
+    print("askquestion", res)
+    if res = yes:
+        update_raspi
+    else:
+        second_part
     subprocess.check_call
     subprocess.check_call('cd MCPi')
-#   subprocess.check_call('')
-    #subprocess.call('wget https://github.com......')
 except:
-    print("Setup failed")
-    p=subprocess.Popen('a.exe args',shell=True)
+    print("First Setup failed")
+    p=subprocess.Popen('SetupMCPi.py',shell=False)
     p.kill()
     
 print("Setup Success")
