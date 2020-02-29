@@ -6,7 +6,14 @@ def c(check, command):
         subprocess.check_call(command)
     else:
         subprocess.call(command)
-
+        
+def update_raspi():
+    c(no, sudo apt full-upgrade)
+    second_part
+    
+def second_part():
+    pass
+    
 try:
     #subprocess.call('mkdir Download MCPi')
  #   c.(y, 'mkdir MCPi')
@@ -18,8 +25,8 @@ try:
         update_raspi
     else:
         second_part
-    subprocess.check_call
-    subprocess.check_call('cd MCPi')
+#    subprocess.check_call
+#    subprocess.check_call('cd MCPi')
 except:
     print("First Setup failed")
     p=subprocess.Popen('SetupMCPi.py',shell=False)
