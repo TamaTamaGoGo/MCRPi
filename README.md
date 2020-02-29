@@ -5,6 +5,8 @@ This is script to RaspberryPi Rasbian Buster.
 This application can download and prepare Minecraft.
 
 You can download with this command.  
+If you want to download at Home Directory  
+`DownDIR=$HOME`
 
     DownDIR=:Address you want to download:  
 
