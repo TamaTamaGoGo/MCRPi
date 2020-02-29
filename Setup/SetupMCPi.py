@@ -9,7 +9,7 @@ def c(check, command):
 
 try:
     #subprocess.call('mkdir Download MCPi')
-    c.(y, 'mkdir MCPi')
+ #   c.(y, 'mkdir MCPi')
  #   subprocess.check_call('./SetupMCPi')
     # askquestion
     res = messagebox.askquestion("Info", "Do you want to update your Raspi? Sometime it takes a long time!")
@@ -25,4 +25,4 @@ except:
     p=subprocess.Popen('SetupMCPi.py',shell=False)
     p.kill()
     
-print("Setup Success")
+print("First Setup Success")
