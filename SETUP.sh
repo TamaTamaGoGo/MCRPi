@@ -10,7 +10,7 @@ apt-get -y install python3
 
 echo 'Progress 2/3   ************------'
 echo 'Downloading and preparing SetupMCPi.py'
-wget https://github.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/blob/master/Setup/SetupMCPi.py
+#wget https://github.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/blob/master/Setup/SetupMCPi.py
 sudo chmod 777 SetupMCPi.py
 
 echo 'Progress 3/3   ****************'
