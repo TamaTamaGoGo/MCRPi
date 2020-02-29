@@ -1,7 +1,7 @@
 #!/bin/sh
-echo -n 'Enter your directory to download> '
-read DIR
-echo $DIR
+#echo -n 'Enter your directory to download> '
+#read DIR
+#echo $DIR
 
 echo 'Progress 1/3   ******------------'
 echo 'starting Setting MCPi'
