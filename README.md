@@ -5,6 +5,6 @@ This is script to RaspberryPi Rasbian Buster.
 This application can download and prepare Minecraft.
 
 You can download with this command.  
-`curl https:// | sudo bash`
+`git clone https://github.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi.git MCPi`
 
 Now Developing!
