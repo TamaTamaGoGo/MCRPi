@@ -5,9 +5,9 @@ This is script to RaspberryPi Rasbian Buster.
 This application can download and prepare Minecraft.
 
 You can download with this command.  
-    DownDIR=:Address you want to download:
+`    DownDIR=:Address you want to download:
     cd $DownDIR
-    git clone https://github.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi.git MCPi
+    git clone https://github.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi.git MCPi`
     
 
 Now Developing!
