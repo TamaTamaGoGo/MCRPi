@@ -6,8 +6,14 @@ This application can download and prepare Minecraft.
 Using zenity dialog.
 
 # MCPi Install
-You can download and install with this command.  
+You can download and install with this command. 
+You need to change (32or64bit) to your Raspbian bit.
+Check typing
 
+
+    uname -a
+
+Usualy Raspbian Buster is armv7l so, 32bit
 
     sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/master/install(32or64bit).sh
     sudo chmod +x install(32or64bit).sh
