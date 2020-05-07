@@ -9,7 +9,7 @@ Using zenity dialog.
 You can download with this command.  
 
 
-    wget https://TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/install.sh
+    wget https://github.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/install.sh
     
 
 Now Developing!
