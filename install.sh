@@ -30,8 +30,19 @@ echo "15"
 sudo apt-get install -y mesa-utils
 echo "20"
 
-#Downloading 
+#Downloading oracle java8
+if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
+    wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz
+fi
+echo "25"
 
+#Extract
+sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C /opt/jdk
+
+#Pre lwjgl3arm32
+if [ ! -d ~/lwjgl3arm32 ]; then
+    mkdir ~/lwjgl3arm32
+fi
 
 
 )  |
