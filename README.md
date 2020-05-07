@@ -15,9 +15,10 @@ Check typing
 
 Usualy Raspbian Buster is armv7l so, 32bit
 
-    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/master/install(32or64bit).sh
-    sudo chmod +x install(32or64bit).sh
-    ./install(32or64bit).sh
+    $bit=32bit or 64bit
+    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/master/install${bit}.sh
+    sudo chmod +x install${bit}.sh
+    ./install${bit}.sh
     
 
 Now Developing!
