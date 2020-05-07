@@ -13,7 +13,7 @@ You need to change 32bit or 64bit to your Raspbian bit.
 Check typing
 
 
-    uname -a
+    uname -m
 
 Usualy Raspbian Buster is armv7l, so32bit.
 But when I use Raspbian Buster with installing Berry Boot, output was aarch64, so 64bit.
