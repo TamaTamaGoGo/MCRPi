@@ -6,10 +6,12 @@ This application can download and prepare Minecraft.
 Using zenity dialog.
 
 # MCPi Install
-You can download with this command.  
+You can download and install with this command.  
 
 
-    wget https://github.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/install.sh
+    sudo wget https://github.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/blob/master/install.sh
+    sudo chmod +x install.sh
+    ./install.sh
     
 
 Now Developing!
