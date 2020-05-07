@@ -3,12 +3,14 @@ Easy GUI application - Minecraft download and prepare
 
 This is script to RaspberryPi Rasbian Buster.
 This application can download and prepare Minecraft.
+Using zenity dialog.
 
+# MCPi Install
 You can download with this command.  
-If you want to download at Home Directory  
-`DownDIR=$HOME`
 
-    wget https://TamaTamaGoGo/MCPi
+
+    wget https://TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/install.sh
     
 
 Now Developing!
+Please support me!
