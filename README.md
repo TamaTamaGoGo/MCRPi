@@ -7,6 +7,8 @@ This application can download and prepare Minecraft.
 
 Using zenity dialog.
 
+Please see all of README.md
+
 # MCPi Install
 You can download and install with this command. 
 
