@@ -26,7 +26,7 @@ echo "# Pre 2"
 ####Downloading MCPi Core from GITHUB's Repository -Nope
 echo "# Downloading Minecraft Official Lancher"
 echo 'cd Minecraft & wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."' > download.sh
-./setup.sh
+./download.sh
 echo "15"
 cd ..
 
@@ -37,14 +37,14 @@ echo "20"
 echo "# Downloading oracle java8 not using repo"
 if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
 	echo 'cd jdk & wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."' > download.sh
-	./setup.sh
+	./download.sh
 fi
 
 echo "25"
 cd ..
 
 echo "# Extract"
-sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C /jdk
+sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C jdk
 
 #echo "# Installing oracle java8 using repo"
 #sudo apt-get install openjdk-8-jdk
@@ -59,7 +59,7 @@ echo "# Downloading Minecraft Server 1.15.2"
 mkdir MinecraftServer
 #cd MinecraftServer
 echo 'cd MinecraftServer & wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."' > download.sh
-./setup.sh
+./download.sh
 #/jdk/jdk1.8.0_241/bin/java -Xmx500M -Xms500M -jar minecraft_server.1.15.2.jar nogui
 echo "35"
 cd ..
