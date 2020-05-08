@@ -55,6 +55,10 @@ sudo wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215
 java 
 echo "35"
 
+echo "# change GPU memory"
+sudo bash -c "echo gpu_mem=248>> /boot/config.txt"
+sudo sed -i -e "s/^gpu_mem=.*/gpu_mem=248/g" /boot/config.txt
+
 
 )  |
 zenity --progress \
