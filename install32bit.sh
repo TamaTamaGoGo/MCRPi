@@ -33,11 +33,13 @@ echo "# Install and Initalize mesa-utils"
 sudo apt-get install -y mesa-utils
 echo "20"
 
+cd MinecraftServer
 echo "# Downloading oracle java8 not using repo"
 if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
     wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz
 fi
 echo "25"
+cd ..
 
 echo "# Extract"
 sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C /jdk
