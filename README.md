@@ -9,7 +9,9 @@ Using zenity dialog.
 
 # MCPi Install
 You can download and install with this command. 
+
 You need to change 32bit or 64bit to your Raspbian bit.
+
 Check typing
 
 
