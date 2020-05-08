@@ -25,16 +25,7 @@ cd Minecraft
 
 ####Downloading MCPi Core from GITHUB's Repository -Nope
 echo "# Downloading Minecraft Official Lancher"
-wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress　--auto-kill --title="Downloading File..." 
-	RUNNING=0
-	while [ $RUNNING -eq 0 ]
-	do
-	if [ -z "$(pidof zenity)" ]
-	then
- 	 pkill wget
-	  RUNNING=1
-	fi
-	done
+echo 'wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."' > download.sh
 echo "15"
 cd ..
 
@@ -45,16 +36,7 @@ echo "20"
 cd MinecraftServer
 echo "# Downloading oracle java8 not using repo"
 if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
-wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..." 
-	RUNNING=0
-	while [ $RUNNING -eq 0 ]
-	do
-	if [ -z "$(pidof zenity)" ]
-	then
- 	 pkill wget
-	  RUNNING=1
-	fi
-	done
+	echo 'wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."' > download.sh
 fi
 
 echo "25"
