@@ -32,7 +32,7 @@ echo "20"
 
 cd ${HOME}/MCPi
 
-echo "# Downloading oracle java8"
+echo "# Downloading oracle java8 not using repo"
 if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
     wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz
 fi
@@ -41,14 +41,17 @@ echo "25"
 echo "# Extract"
 sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C /opt/jdk
 
+echo "# Installing oracle java8 using repo"
+sudo apt-get install openjdk-8-jdk
+
 echo "# Pre lwjgl3arm32"
 if [ ! -d ~/lwjgl3arm32 ]; then
     mkdir ~/lwjgl3arm32
 fi
 
-echo "# install Minecraft Server"
+echo "# install Minecraft Server 1.15.2"
 wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
-echo "30"
+echo "35"
 
 
 )  |
