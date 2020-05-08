@@ -50,7 +50,9 @@ if [ ! -d ~/lwjgl3arm32 ]; then
 fi
 
 echo "# install Minecraft Server 1.15.2"
-wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+mkdir MinecraftServer
+sudo wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+java 
 echo "35"
 
 
