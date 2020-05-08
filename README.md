@@ -18,7 +18,10 @@ Check typing
     uname -m
 
 Usualy Raspbian Buster is armv7l, so32bit.
+
 But when I use Raspbian Buster with installing Berry Boot, output was aarch64, so 64bit.
+
+I think if you are using Sakaki's gentoo or raspbian-nspawn-64, chenge to 64bit.
 
     bit=32bit or 64bit
     sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/master/install${bit}.sh
