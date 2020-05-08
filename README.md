@@ -10,6 +10,10 @@ Using zenity dialog.
 Please see all of README.md
 
 # MCRPi Install
+Don't put MCRPi to **folder named with using blank** example  **X** MCR Pi -> **O** MCRPi
+
+MCRPi's install's script will get lost where the file at.
+
 You can download and install with this command. 
 
 You need to **change 32bit or 64bit to your Raspbian bit.**
