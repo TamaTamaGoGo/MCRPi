@@ -37,8 +37,12 @@ At first type
     sudo raspi-config
     
 This is Raspi Setting maneger with CUI.
+
 Next go to Advanced Setting with push keyboard.
-...
+
+And enable GL (Fake KMS).
+
+Reboot.
 
 # Using Minecraft Server
 At first, you need to read EULA.
