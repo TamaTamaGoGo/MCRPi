@@ -40,8 +40,9 @@ Next go to Advanced Setting with push keyboard.
 
 # Using Minecraft Server
 At first, you need to read EULA.
+
 After reading, change eula.txt, eula=false to eula=true
 
 
-Now Developing!
+# Now Developing!
 Please support me!
