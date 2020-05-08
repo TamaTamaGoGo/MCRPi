@@ -8,8 +8,6 @@ echo "MCRPi project use Shell and Python(?~ and zenity"
 echo Installing zenity ; sleep 1
 sudo apt-get install -y zenity ; sleep 1
 
-cd ${HOME}
-
 echo "# Pre"
 ##zenity --progress --time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease wait...'
 echo "5"
@@ -30,7 +28,6 @@ echo "# Install and Initalize mesa-utils"
 sudo apt-get install -y mesa-utils
 echo "20"
 
-cd ${HOME}/MCRPi
 
 echo "# Downloading oracle java8 not using repo"
 if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
