@@ -67,7 +67,7 @@ cd ..
 echo "# change GPU memory"
 sudo bash -c "echo gpu_mem=248>> /boot/config.txt"
 sudo sed -i -e "s/^gpu_mem=.*/gpu_mem=248/g" /boot/config.txt
-echp "40"
+echo "40"
 
 
 )  |
