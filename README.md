@@ -10,9 +10,9 @@ Using zenity dialog.
 Please see all of README.md
 
 # MCRPi Install
-Don't put MCRPi to **folder named with using blank** example  **X** MCR Pi -> **O** MCRPi
+Don't put MCRPi to **folder named with using blank**    example  **X** MCR Pi -> **O** MCRPi
 
-MCRPi's install's script will get lost where the file at.
+MCRPi's install's script will get lost where the file is.
 
 You can download and install with this command. 
 
