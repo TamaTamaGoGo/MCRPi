@@ -57,7 +57,7 @@ echo "# install Minecraft Server 1.15.2"
 mkdir MinecraftServer
 cd MinecraftServer
 sudo wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
-java -Xmx500M -Xms500M -jar minecraft_server.1.15.2.jar nogui
+/jdk/jdk1.8.0_241/bin/java -Xmx500M -Xms500M -jar minecraft_server.1.15.2.jar nogui
 echo "35"
 cd ..
 
