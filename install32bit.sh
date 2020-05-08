@@ -2,7 +2,7 @@
 
 (
 ##Information
-echo "MCPi project use Shell and Python(?~ and zenity"
+echo "MCRPi project use Shell and Python(?~ and zenity"
 
 #pre zenity
 echo Installing zenity ; sleep 1
@@ -13,7 +13,7 @@ cd ${HOME}
 echo "# Pre"
 ##zenity --progress --time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease wait...'
 echo "5"
-mkdir MCPi
+mkdir MCRPi
 echo "10"
 mkdir .minecraft
 mkdir Minecraft
@@ -30,7 +30,7 @@ echo "# Install and Initalize mesa-utils"
 sudo apt-get install -y mesa-utils
 echo "20"
 
-cd ${HOME}/MCPi
+cd ${HOME}/MCRPi
 
 echo "# Downloading oracle java8 not using repo"
 if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
@@ -63,7 +63,7 @@ echp "40"
 
 )  |
 zenity --progress \
-	--time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease Wait...\n' --auto-kill --percentage=0
+	--time-remaining --text='Install and Initalize MCRPi \nIt only takes minutes \nPlease Wait...\n' --auto-kill --percentage=0
 
 if [ "$?" = -1 ] ; then
         zenity --error \
