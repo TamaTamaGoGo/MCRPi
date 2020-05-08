@@ -26,6 +26,7 @@ echo "# Pre 2"
 ####Downloading MCPi Core from GITHUB's Repository -Nope
 echo "# Downloading Minecraft Official Lancher"
 echo 'cd Minecraft ; wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."' > download.sh
+sudo chmod 777 download.sh
 ./download.sh
 echo "15"
 cd ..
@@ -44,7 +45,7 @@ echo "25"
 cd ..
 
 echo "# Extract"
-sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C jdk
+sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C /jdk
 
 #echo "# Installing oracle java8 using repo"
 #sudo apt-get install openjdk-8-jdk
