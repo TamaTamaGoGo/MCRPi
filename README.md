@@ -1,4 +1,4 @@
-# MCPi---MineCraft-for-raspberryPi
+# MCRPi---MineCraft-for-RaspberryPi
 Easy GUI application - Minecraft download and prepare 
 
 This is script to RaspberryPi Rasbian Buster.
@@ -9,7 +9,7 @@ Using zenity dialog.
 
 Please see all of README.md
 
-# MCPi Install
+# MCRPi Install
 You can download and install with this command. 
 
 You need to **change 32bit or 64bit to your Raspbian bit.**
@@ -26,7 +26,7 @@ But when I use Raspbian Buster with installing Berry Boot, output was aarch64, s
 I think if you are using Sakaki's gentoo or raspbian-nspawn-64, chenge to 64bit.
 
     bit=32bit or 64bit
-    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCPi---MineCraft-for-raspberryPi/master/install${bit}.sh
+    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/install${bit}.sh
     sudo chmod +x install${bit}.sh
     ./install${bit}.sh
     
