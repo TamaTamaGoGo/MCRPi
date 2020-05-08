@@ -63,7 +63,7 @@ echp "40"
 
 )  |
 zenity --progress \
-	--time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease Wait...\n' --auto-kill --percentage=0
+	--time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease Wait...\n' --auto-kill --percentage=0 --no--wrap
 
 if [ "$?" = -1 ] ; then
         zenity --error \
