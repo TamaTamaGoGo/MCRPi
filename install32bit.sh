@@ -14,15 +14,22 @@ echo "# Pre"
 ##zenity --progress --time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease wait...'
 echo "2"
 mkdir MCRPi
+sleep 1
 echo "4"
 mkdir .minecraft
+sleep 1
 echo "6"
 mkdir Minecraft
+sllep 1
 echo "8"
 mkdir jdk
+sleep 1
 echo "10"
 
-echo "# Pre 2"
+echo "# Downloading script by github repository"
+sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/download/download1.sh
+sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/download/download2.sh
+sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/download/download3.sh
 #cd Minecraft
 
 ####Downloading MCPi Core from GITHUB's Repository -Nope
