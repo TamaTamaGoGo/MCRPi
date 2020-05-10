@@ -68,8 +68,10 @@ echo "30"
 echo "# Downloading Minecraft Server 1.15.2"
 mkdir MinecraftServer
 #cd MinecraftServer
-lxterminal --working-directory=${dir}/MinecraftServer -e wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."
+#lxterminal --working-directory=${dir}/MinecraftServer -e wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."
 #/jdk/jdk1.8.0_241/bin/java -Xmx500M -Xms500M -jar minecraft_server.1.15.2.jar nogui
+sudo chmod +x download3.sh
+./download3.sh
 echo "35"
 
 
