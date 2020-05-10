@@ -34,6 +34,7 @@ I think if you are using Sakaki's gentoo or raspbian-nspawn-64, chenge to 64bit.
     sudo chmod +x install${bit}.sh
     ./install${bit}.sh
     
+    
 # Change Raspi Setting
 you need to change your Raspi Setting.
 At first type
