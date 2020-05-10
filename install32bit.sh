@@ -20,7 +20,7 @@ mkdir .minecraft
 sleep 1
 echo "6"
 mkdir Minecraft
-sllep 1
+sleep 1
 echo "8"
 mkdir jdk
 sleep 1
