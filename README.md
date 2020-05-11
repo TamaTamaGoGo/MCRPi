@@ -1,5 +1,5 @@
 # MCRPi---MineCraft-for-RaspberryPi
-If you want to see this page, jump this URL
+If you want to see this page, jump this URL,
 for 日本語
 https://translate.google.co.jp/translate?hl=ja&sl=en&tl=ja&u=https%3A%2F%2Fgithub.com%2FTamaTamaGoGo%2FMCRPi---MineCraft-for-RaspberryPi%2Fblob%2Fmaster%2FREADME.md
 
