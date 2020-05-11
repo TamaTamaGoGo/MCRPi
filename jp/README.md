@@ -32,8 +32,8 @@ MCRPiのインストールスクリプトは、ファイルの場所で迷子に
 Sakaki gentoo64またはraspbian-nspawn-64を使用している場合は、64ビットに変更してください。
 
     bit=32bit or 64bit
+その次に、これをコピペして実行してください 
 
- 
     sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/jp/install${bit}.sh
     sudo chmod +x install${bit}.sh
     ./install${bit}.sh
