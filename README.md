@@ -1,9 +1,11 @@
 # MCRPi---MineCraft-for-RaspberryPi
 Easy GUI application - Minecraft download and prepare 
 
-This is script to RaspberryPi Rasbian Buster.
+This is script to RaspberryPi Rasbian but I think it will work on linux too...
 
 This application can download and prepare Minecraft.
+
+You can install Minecraft Server too!
 
 Using zenity dialog.
 
