@@ -1,7 +1,4 @@
 # MCRPi---MineCraft-for-RaspberryPi
-If you want to see this page, jump this URL,
-for 日本語
-https://translate.google.co.jp/translate?hl=ja&sl=en&tl=ja&u=https%3A%2F%2Fgithub.com%2FTamaTamaGoGo%2FMCRPi---MineCraft-for-RaspberryPi%2Fblob%2Fmaster%2FREADME.md
 
 Easy GUI application - Minecraft download and prepare 
 
@@ -36,6 +33,8 @@ But when I use Raspbian Buster with installing Berry Boot, output was aarch64, s
 I think if you are using Sakaki's gentoo or raspbian-nspawn-64, chenge to 64bit.
 
     bit=32bit or 64bit
+    
+
     sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/install${bit}.sh
     sudo chmod +x install${bit}.sh
     ./install${bit}.sh
