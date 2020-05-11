@@ -10,7 +10,7 @@ echo Installing zenity ; sleep 1
 sudo apt-get install -y zenity ; sleep 1
 dir=`pwd`
 
-echo "# Making Directory"
+echo "# ディレクトリーを作成しています"
 ##zenity --progress --time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease wait...'
 echo "2"
 mkdir MCRPi
@@ -26,25 +26,25 @@ mkdir jdk
 sleep 1
 echo "10"
 
-echo "# Downloading script by github repository"
-sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/download/download1.sh
-sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/download/download2.sh
+echo "# GitHubからダウンロードスクリプトをダウンロードしています"
+sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/jp/download/download1.sh
+sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/jp/download/download2.sh
 sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/download/download3.sh
 #cd Minecraft
 
 ####Downloading MCPi Core from GITHUB's Repository -Nope
-echo "# Downloading Minecraft Official Lancher"
+echo "# Minecraftの公式ランチャーをダウンロードしています"
 #lxterminal --working-directory=${dir}/Minecraft -e wget https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..." ; exit
 sudo chmod +x download1.sh
 ./download1.sh
 echo "15"
 
 
-echo "# Install and Initalize mesa-utils"
+echo "# mesa-utilsをインストールしています"
 sudo apt-get install -y mesa-utils
 echo "20"
 
-echo "# Downloading oracle java8 not using repo"
+echo "# リポジトリーを使わずにJava 8をインストールしています"
 if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
 #	lxterminal --working-directory=${dir}/jdk -e wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."
 	sudo chmod +x download2.sh
@@ -53,19 +53,19 @@ fi
 
 echo "25"
 
-echo "# Extract"
+echo "# 展開しています"
 sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C /jdk
 
 #echo "# Installing oracle java8 using repo"
 #sudo apt-get install openjdk-8-jdk
 
-echo "# Pre lwjgl3arm32"
+echo "# lwjgl3arm32を準備しています"
 if [ ! -d ~/lwjgl3arm32 ]; then
     mkdir ~/lwjgl3arm32
 fi
 echo "30"
 
-echo "# Downloading Minecraft Server 1.15.2"
+echo "# Minecraft Server 1.15.2をダウンロードしています"
 mkdir MinecraftServer
 #cd MinecraftServer
 #lxterminal --working-directory=${dir}/MinecraftServer -e wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."
