@@ -53,12 +53,12 @@ Raspi設定を変更する必要があります。まずは
     reboot
 で再起動、またはDo you want to reboot?と聞かれたら、yesと答えてください。
 
-Minecraftサーバーの使用
+# Minecraftサーバーの使用
 
 最初に、EULAを読む必要があります。
 
-読んだ後、eula.txt、eula = falseをeula = trueに変更します
+読んだ後、eula.txtにある、eula = falseをeula = trueに変更します
 
-今開発中！
+# 現在開発中！
 
-応援よろしくお願いします！
+支援をよろしくお願いします！
