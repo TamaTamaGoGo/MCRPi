@@ -10,7 +10,7 @@ You can install Minecraft Server too!
 
 Using zenity dialog.
 
-Please see all of README.md
+**Please see all of README.md**
 
 # MCRPi Install
 Don't put MCRPi to **folder named with using blank**    example  **X** MCR Pi -> **O** MCRPi
