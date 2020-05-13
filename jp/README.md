@@ -1,4 +1,4 @@
-# MCRPi --- MineCraft-for-RaspberryPi
+# MCRPi---MineCraft-for-RaspberryPi
 
 簡単なGUIアプリケーション-Minecraftのダウンロードと準備
 
