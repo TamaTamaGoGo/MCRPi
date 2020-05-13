@@ -63,7 +63,7 @@ You should open your port.
 
 I offer to initalize with commanding
 
-    cd MinecraftServer && sudo wget 
+    cd MinecraftServer && sudo wget https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/raw/master/en/setup/minecraftserver.sh && sudo chmod +x minecraftserver.sh && ./minecraftserver.sh
 
 # Now Developing!
 Please support me!
