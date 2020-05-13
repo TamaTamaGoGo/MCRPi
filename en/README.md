@@ -59,6 +59,11 @@ At first, you need to read EULA.
 
 After reading, change eula.txt, eula=false to eula=true
 
+You should open your port.
+
+I offer to initalize with commanding
+
+    cd MinecraftServer && sudo wget 
 
 # Now Developing!
 Please support me!
