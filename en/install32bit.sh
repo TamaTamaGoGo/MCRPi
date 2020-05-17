@@ -22,7 +22,7 @@ echo "6"
 mkdir Minecraft
 sleep 1
 echo "8"
-mkdir jdk
+#mkdir jdk
 sleep 1
 echo "10"
 
