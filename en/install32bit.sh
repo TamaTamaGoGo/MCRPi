@@ -54,7 +54,7 @@ fi
 echo "25"
 
 echo "# Extract"
-sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C jdk
+sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz
 
 #echo "# Installing oracle java8 using repo"
 #sudo apt-get install openjdk-8-jdk
