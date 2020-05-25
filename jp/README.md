@@ -10,7 +10,7 @@ Minecraftサーバーもインストールできます！
 
 このアプリケーションはzenityダイアログを使用します。
 
-zenityをインストールしていなくても30秒以内で、自動的にダウンロードされます。
+zenityをインストールしていなくても40秒以内で、自動的にダウンロードされます。
 
 **README.mdをすべて閲覧してください！**
 
@@ -37,8 +37,8 @@ Sakaki gentoo64またはraspbian-nspawn-64を使用している場合は、64ビ
 その次に、これをコピペして実行してください 
 
     sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/jp/install${bit}.sh
-    sudo chmod +x install${bit}.sh
-    ./install${bit}.sh
+    sudo chmod +x install${bit}
+    ./install${bit}
 # Raspi設定の変更
 
 Raspi設定を変更する必要があります。まずは
@@ -61,7 +61,7 @@ Raspi設定を変更する必要があります。まずは
 
 最初に、EULAを読む必要があります。
 
-読んだ後、eula.txtにある、eula = falseをeula = trueに変更します
+読んだ後、eula.txtにある、eula=falseをeula=trueに変更します
 
 # 現在開発中！
 
