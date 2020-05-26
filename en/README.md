@@ -62,6 +62,13 @@ After reading, change eula.txt, eula=false to eula=true
 
 You should open your port.
 
+I offer to use Firewall ufw.
+
+Minecraft Server requid 25565 server, so type
+
+    sudo ufw enable 25565
+    sudo ufw enable
+
 I offer to initalize with commanding
 
     cd MinecraftServer && sudo wget https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/raw/master/en/setup/minecraftserver.sh && sudo chmod +x minecraftserver.sh && ./minecraftserver.sh
