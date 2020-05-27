@@ -1,4 +1,4 @@
-# Readme.md is available for English ・　日本語で閲覧できます
+# Readme.md is available for **English**・**日本語**で閲覧できます
 **English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/en#mcrpi---minecraft-for-raspberrypi
 
 **日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/jp#mcrpi---minecraft-for-raspberrypi
