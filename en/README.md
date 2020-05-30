@@ -36,7 +36,7 @@ I think if you are using Sakaki's gentoo or raspbian-nspawn-64, chenge to 64bit.
     
 Run last command and copy/paste next commands
 
-    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/install${bit}.sh
+    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/install${bit}
     sudo chmod +x install${bit}
     ./install${bit}
     
