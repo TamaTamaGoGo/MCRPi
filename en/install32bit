@@ -69,6 +69,7 @@ sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz
 echo "# Pre lwjgl3arm32"
 if [ ! -d ~/lwjgl3arm32 ]; then
     mkdir ~/lwjgl3arm32
+    ./download5.sh
 fi
 echo "30"
 
