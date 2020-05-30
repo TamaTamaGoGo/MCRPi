@@ -1,13 +1,14 @@
 #!/bin/sh
+#pre zenity
+echo Installing zenity ; sleep 1
+sudo apt-get install -y zenity ; sleep 1
 
 (
 
 ##Information
 echo "MCRPi project use Shell and Python(?~ and zenity"
 
-#pre zenity
-echo Installing zenity ; sleep 1
-sudo apt-get install -y zenity ; sleep 1
+
 
 ## For get directory pass
 dir=`pwd`
@@ -33,6 +34,7 @@ sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-R
 sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/download/download2.sh
 sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/download/download3.sh
 sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/download/download4.sh
+sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/download/download5.sh
 #cd Minecraft
 
 ####Downloading MCPi Core from GITHUB's Repository -Nope
@@ -69,6 +71,10 @@ if [ ! -d ~/lwjgl3arm32 ]; then
     mkdir ~/lwjgl3arm32
 fi
 echo "30"
+
+echo "# Extracting lwjgl3arm32"
+tar -zxf lwjgl3arm32.tar.gz -C ~/lwjgl3arm32
+
 
 echo "# Downloading Minecraft Server 1.15.2"
 mkdir MinecraftServer
