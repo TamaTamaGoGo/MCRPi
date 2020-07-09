@@ -19,27 +19,13 @@ MCRPi's install's script will get lost where the file is.
 
 You can download and install with this command. 
 
-You need to **change 32bit or 64bit to your Raspbian bit.**
+You only need to run this command.
 
-Check typing
-
-
-    uname -m
-
-Usualy Raspbian Buster is armv7l, so32bit.
-
-But when I use Raspbian Buster with installing Berry Boot, output was aarch64, so 64bit.
-
-I think if you are using Sakaki's gentoo or raspbian-nspawn-64, chenge to 64bit.
-
-    bit=32bit or 64bit
+    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/install
+    sudo chmod +x install
+    ./install
     
-Run last command and copy/paste next commands
-
-    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/install${bit}
-    sudo chmod +x install${bit}
-    ./install${bit}
-    
+Wait for install...
     
 # Change Raspi Setting
 you need to change your Raspi Setting.
@@ -62,12 +48,20 @@ After reading, change eula.txt, eula=false to eula=true
 
 You should open your port.
 
-I offer to use Firewall ufw.
+I pretty offer to use miniupnpc.
+
+You could easily install it with following this command.
+
+    sudo apt-get install miniupnpc
+
+(I offer to use Firewall ufw.
 
 Minecraft Server requid 25565 server, so type
 
     sudo ufw enable 25565
     sudo ufw enable
+    
+)
 
 I offer to initalize with commanding
 
