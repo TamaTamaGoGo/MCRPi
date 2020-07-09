@@ -1,0 +1,26 @@
+MACHINE_TYPE=$(uname -m)
+LANG=$(locale language)
+
+if [ "$LANG" = "ja_JP" ]; then
+    echo "Japanese Mode"
+    lang=
+    fi
+else
+    echo "Not aarch64 32bit"
+    wget https
+    sudo chmod +x install32bit
+    ./install32bit
+    fi
+
+if [ "$MACHINE_TYPE" = "aarch64" ]; then
+    echo "aarch64 64bit"
+    wget https
+    sudo chmod +x install64bit
+    ./install64bit
+    fi
+else
+    echo "Not aarch64 32bit"
+    wget https
+    sudo chmod +x install32bit
+    ./install32bit
+    fi
