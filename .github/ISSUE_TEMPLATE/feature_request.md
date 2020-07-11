@@ -4,7 +4,7 @@ about: Post me any feature request!
 title: Feature Request
 labels: feature, request, new
 assignees: TamaTamaGoGo
-projects: Feature
+Projects: Feature
 
 ---
 
