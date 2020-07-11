@@ -1,5 +1,5 @@
 ---
-name: 'feature_request Template '
+name: 'Feature Request Template '
 about: Post me any feature request!
 title: Feature Request
 labels: feature, request, new
