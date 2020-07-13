@@ -12,13 +12,13 @@ else
 
 if [ "$MACHINE_TYPE" = "aarch64" ]; then
     echo "aarch64 64bit"
-    wget https
+    wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.0.1/en/install64bit
     sudo chmod +x install64bit
     ./install64bit
     fi
 else
     echo "Not aarch64 32bit"
-    wget https
+    wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.0.1/en/install32bit
     sudo chmod +x install32bit
     ./install32bit
     fi
