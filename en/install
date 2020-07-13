@@ -3,13 +3,11 @@ LANG=$(locale language)
 
 if [ "$LANG" = "ja_JP" ]; then
     echo "Japanese Mode"
-    lang=
+    lang=jp
     fi
 else
-    echo "Not aarch64 32bit"
-    wget https
-    sudo chmod +x install32bit
-    ./install32bit
+    echo "Automaticaly selected to English"
+    lang=en
     fi
 
 if [ "$MACHINE_TYPE" = "aarch64" ]; then
