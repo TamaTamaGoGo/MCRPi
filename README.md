@@ -2,3 +2,8 @@
 **English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/en#mcrpi---minecraft-for-raspberrypi
 
 **日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/jp#mcrpi---minecraft-for-raspberrypi
+
+# Automatic install file is here! 自動インストールをするにはこちら！
+**English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/en#mcrpi---minecraft-for-raspberrypi
+
+**日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/jp#mcrpi---minecraft-for-raspberrypi
