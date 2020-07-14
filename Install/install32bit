@@ -11,7 +11,7 @@ echo "MCRPi project use Shell and Python(?~ and zenity"
 
 
 ## For get directory pass
-dir=`pwd`
+dir=$(pwd)
 
 echo "# Making Directory"
 ##zenity --progress --time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease wait...'
