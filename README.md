@@ -7,3 +7,6 @@
 **English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/en#mcrpi---minecraft-for-raspberrypi
 
 **日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/jp#mcrpi---minecraft-for-raspberrypi
+
+# All Release is availabe here リリースはこちらから確認可能です
+https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tags
