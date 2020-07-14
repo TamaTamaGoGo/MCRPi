@@ -1,4 +1,4 @@
-[![CodeFactor Review](https://www.codefactor.io/repository/github/tamatamagogo/mcrpi---minecraft-for-raspberrypi/badge/legacypython)](https://www.codefactor.io/repository/github/tamatamagogo/mcrpi---minecraft-for-raspberrypi/overview/legacypython)
+Legacy Python Repository [![CodeFactor Review](https://www.codefactor.io/repository/github/tamatamagogo/mcrpi---minecraft-for-raspberrypi/badge/legacypython)](https://www.codefactor.io/repository/github/tamatamagogo/mcrpi---minecraft-for-raspberrypi/overview/legacypython)
 
 # Readme.md is available for **English**・**日本語**で閲覧できます
 **English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/master/en#mcrpi---minecraft-for-raspberrypi
