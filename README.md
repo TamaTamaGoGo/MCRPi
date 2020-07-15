@@ -4,9 +4,11 @@
 [![Version](https://img.shields.io/badge/Version-v.1.0-lightgrey)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
 [![Status](https://img.shields.io/badge/Status-BetaVersion-red)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
 
+
  **Issue**
 [![IssueOpen](https://img.shields.io/github/issues-raw/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?color=red)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/issues?q=is%3Aopen+is%3Aissue)
 [![IsuueClose](https://img.shields.io/github/issues-closed-raw/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)]()
+
 
 **Code Review - コード評価** 
 
