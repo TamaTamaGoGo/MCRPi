@@ -1,4 +1,4 @@
-**Code Review** 
+**Code Review - コード評価** 
 
 [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/mcrpi---minecraft-for-raspberrypi/badge/legacypython)](https://www.codefactor.io/repository/github/tamatamagogo/mcrpi---minecraft-for-raspberrypi/overview/legacypython)
 
