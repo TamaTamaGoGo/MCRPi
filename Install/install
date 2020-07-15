@@ -6,7 +6,7 @@ if [ "$LANG" = "ja_JP" ]; then
     lang=jp
     fi
 else
-    echo "Automaticaly selected to English"
+    echo "Automatically selected to English"
     lang=en
     fi
 
