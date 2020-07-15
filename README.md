@@ -22,6 +22,7 @@
 **Detail - 詳細**
 
 [![MileStone](https://img.shields.io/badge/MileStone-20%25-9cf)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)
+[![change](https://img.shields.io/github/commit-activity/w/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)]()
 
 # Readme.md is available for **English**・**日本語**で閲覧できます
 **Please watch Readme.md  Readme.mdを閲覧ください**
