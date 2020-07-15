@@ -15,19 +15,19 @@ else
     fi
 
 echo "Pythonをインストールしています"
-sudo apt-get update && sudo apt-get reinstall -y python-3.7
+sudo apt-get update && sudo apt-get reinstall -y python-3.8
 echo "MCRPi.pyを再ダウンロードしています"
+sudo rm MCRPi.py
 wget -O MCRPi.py https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.1.0/jp/GUI/MCRPi.py
 echo "ゲームモニターを再ダウンロードしています"
 wget -O GameMonitor.py https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.1.0/Utility/${lang}/GameMonitor.py
 echo "アップデートに間違いがないかチェックしています"
-echo "MCRPi.py"
+echo "チェック中:MCRPi.py"
 Mver=${cat MCRPi.py.version}
 if [ "$Mver" = "$new_ver" ]; then
     echo "[OK] MCRPi.py"
-    lang=jp
     fi
 else
     echo "[Fail] MCRPi.py"
-    lang=en
+    echo "バージョンが、$Mverです。$new_verへ、最ダウンロードします。"
     fi
