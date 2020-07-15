@@ -3,6 +3,7 @@
 [![Forks](https://img.shields.io/github/forks/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?label=Forks%21&style=social)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)  
 [![Version](https://img.shields.io/badge/Version-v.1.0-lightgrey)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
 [![Status](https://img.shields.io/badge/Status-BetaVersion-red)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
+[![Size](https://img.shields.io/github/repo-size/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)]()
 
 
  **Issue**
