@@ -1,6 +1,6 @@
 # Status - 状態
 
-[![Forks](https://img.shields.io/github/forks/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?label=Forks%21&style=social)]()
+[![Forks](https://img.shields.io/github/forks/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?label=Forks%21&style=social)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)
 
 **Code Review - コード評価** 
 
