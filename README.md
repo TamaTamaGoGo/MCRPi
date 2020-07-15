@@ -6,8 +6,8 @@
 
 **Detail - 詳細**
 
-[![Version](https://img.shields.io/badge/Version-v.1.0-lightgrey)]
-[![Status](https://img.shields.io/badge/Status-BetaVersion-red)]
+[![Version](https://img.shields.io/badge/Version-v.1.0-lightgrey)](https://img.shields.io/badge/Version-v.1.0-lightgrey)
+[![Status](https://img.shields.io/badge/Status-BetaVersion-red)](https://img.shields.io/badge/Status-BetaVersion-red)
 
 # Readme.md is available for **English**・**日本語**で閲覧できます
 **Please watch Readme.md Readme.mdを閲覧ください**
