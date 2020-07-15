@@ -1,4 +1,7 @@
 # Status - 状態
+
+[![Forks](https://img.shields.io/github/forks/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?label=Forks%21&style=social)]()
+
 **Code Review - コード評価** 
 
 [![CodeFactor](https://www.codefactor.io/repository/github/tamatamagogo/mcrpi---minecraft-for-raspberrypi/badge/legacypython)](https://www.codefactor.io/repository/github/tamatamagogo/mcrpi---minecraft-for-raspberrypi/overview/legacypython)
