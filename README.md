@@ -1,6 +1,8 @@
 # Status - 状態
 
-[![Forks](https://img.shields.io/github/forks/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?label=Forks%21&style=social)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)
+[![Forks](https://img.shields.io/github/forks/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?label=Forks%21&style=social)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)  
+[![Version](https://img.shields.io/badge/Version-v.1.0-lightgrey)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
+[![Status](https://img.shields.io/badge/Status-BetaVersion-red)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
 
 **Code Review - コード評価** 
 
@@ -12,8 +14,6 @@
 
 **Detail - 詳細**
 
-[![Version](https://img.shields.io/badge/Version-v.1.0-lightgrey)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
-[![Status](https://img.shields.io/badge/Status-BetaVersion-red)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
 [![MileStone](https://img.shields.io/badge/MileStone-20%25-9cf)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)
 
 # Readme.md is available for **English**・**日本語**で閲覧できます
