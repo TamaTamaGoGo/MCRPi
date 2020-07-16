@@ -1,3 +1,5 @@
+
+![White Computer Social Media Day Social Media Graphic 2](https://user-images.githubusercontent.com/61271240/87660210-aaeffe00-c799-11ea-8c09-fd087f702597.png)
 # Status - 状態
 
 [![Forks](https://img.shields.io/github/forks/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?label=Forks%21&style=social)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)  
@@ -24,7 +26,6 @@
 [![MileStone](https://img.shields.io/badge/MileStone-20%25-9cf)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)
 ![change](https://img.shields.io/github/commit-activity/m/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)
 
-![White Computer Social Media Day Social Media Graphic 2](https://user-images.githubusercontent.com/61271240/87660210-aaeffe00-c799-11ea-8c09-fd087f702597.png)
 
 # Readme.md is available for **English**・**日本語**で閲覧できます
 **Please watch Readme.md  Readme.mdを閲覧ください**
