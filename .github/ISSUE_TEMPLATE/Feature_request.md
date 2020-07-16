@@ -12,10 +12,10 @@ Desktop (please complete the following information):
 
 OS: [e.g. raspbian buster]
 
-Your machine hareware [e.g. armv7l] `uname -m`
+Your machine hardware [e.g. armv7l] `uname -m`
 
-<!--If you need...-->
-Browser [e.g. chrominum]
+<!--Not so important information...-->
+Browser [e.g. chromium]
 
 Raspi Machine name [e.g. Raspberry Pi4 4GB]
 
