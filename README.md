@@ -11,7 +11,7 @@
  **Issues - 問題**
  
 [![IssueOpen](https://img.shields.io/github/issues-raw/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?color=red)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/issues?q=is%3Aopen+is%3Aissue)
-[![IsuueClose](https://img.shields.io/github/issues-closed-raw/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)]()
+[![IssueClose](https://img.shields.io/github/issues-closed-raw/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)]()
 
 
 **Code Review - コード評価** 
@@ -39,5 +39,5 @@
 
 **日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/jp#mcrpi---minecraft-for-raspberrypi
 
-# All Release is availabe to check here リリースはこちらから確認可能です
+# All Release is available to check here リリースはこちらから確認可能です
 https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tags
