@@ -3,7 +3,7 @@
 [![Forks](https://img.shields.io/github/forks/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi?label=Forks%21&style=social)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)  
 [![Version](https://img.shields.io/badge/Version-v.1.0-lightgrey)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
 [![Status](https://img.shields.io/badge/Status-BetaVersion-red)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/releases)
-[![Size](https://img.shields.io/github/repo-size/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)]()
+![Size](https://img.shields.io/github/repo-size/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)
 
 
  **Issue**
@@ -19,11 +19,12 @@
 **A**->Fine 良い  **B**->Some big issue 大きい問題が少しあります  **C**->Many big issue 大きい問題が多数あります
 
 
-
 **Detail - 詳細**
 
 [![MileStone](https://img.shields.io/badge/MileStone-20%25-9cf)](https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi#status---状態)
-[![change](https://img.shields.io/github/commit-activity/w/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)]()
+![change](https://img.shields.io/github/commit-activity/w/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi)
+
+![White Computer Social Media Day Social Media Graphic 2](https://user-images.githubusercontent.com/61271240/87660210-aaeffe00-c799-11ea-8c09-fd087f702597.png)
 
 # Readme.md is available for **English**・**日本語**で閲覧できます
 **Please watch Readme.md  Readme.mdを閲覧ください**
