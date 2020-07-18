@@ -23,3 +23,65 @@
 whileループを使ってvalueを1から100まで1ずつ増やしていくことで、Progressbarを進めていきます。
 
 但し、self.progress.update()を入れないと、画面の更新がされないので必ず入れてください。
+
+
+# Another site
+
+プログレスバーを使ってみます。プログレスバーは次のように作ります。
+
+    progress = gtk.ProgressBar()
+    progress.set_text("0%")
+    gtk_progress_bar_set_text() で初期の文字列を "0%" に設定しています。
+
+プログレスバーを動かすために、タイマーを使います。
+
+    timer = gtk.timeout_add(500, timerEvent, progress)
+
+500 ms ごとに timerEvent() を呼び出し、引数に progress を渡します。timerEvent() は次のようになっています。
+
+    def timerEvent(progress):
+        global fraction
+
+        fraction += 10
+        if fraction > 100:
+            fraction = 0
+
+        progress.set_text("%d%%" % fraction)
+        progress.set_fraction(fraction/100.)
+
+        return True
+fraction がプログレスバーのパーセンテージを表わします。set_text() でプログレスバーの文字列を更新し、set_fraction() でプログレスバーの進み具合を更新します。返り値を True にしておけば、timerEvent() は再びタイマーから呼び出されます。
+
+不要になったタイマーは gtk.timeout_remove() で取り除きます。
+
+    gtk.timeout_remove(timer)
+
+
+
+プログレスバーを使ってみます。プログレスバーは次のように作ります。
+
+progress = gtk.ProgressBar()
+progress.set_text("0%")
+gtk_progress_bar_set_text() で初期の文字列を "0%" に設定しています。
+
+プログレスバーを動かすために、タイマーを使います。
+
+timer = gtk.timeout_add(500, timerEvent, progress)
+500 ms ごとに timerEvent() を呼び出し、引数に progress を渡します。timerEvent() は次のようになっています。
+
+def timerEvent(progress):
+    global fraction
+
+    fraction += 10
+    if fraction > 100:
+        fraction = 0
+
+    progress.set_text("%d%%" % fraction)
+    progress.set_fraction(fraction/100.)
+
+    return True
+fraction がプログレスバーのパーセンテージを表わします。set_text() でプログレスバーの文字列を更新し、set_fraction() でプログレスバーの進み具合を更新します。返り値を True にしておけば、timerEvent() は再びタイマーから呼び出されます。
+
+不要になったタイマーは gtk.timeout_remove() で取り除きます。
+
+gtk.timeout_remove(timer)
