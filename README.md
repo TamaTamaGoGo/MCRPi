@@ -40,12 +40,12 @@ Installation
 
 **Method 1**
 ```Shell
-curl -L https:// | bash
+curl -L https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/Python-Latest/Install/install | bash
 ```
 
 **Method 2**
 ```Shell
-wget -O install.sh https:// && sudo chmod 777 install.sh && sudo bash install.sh
+wget -O install https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/Python-Latest/Install/install && sudo chmod 777 install && sudo bash install
 ```
 **English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/en#mcrpi---minecraft-for-raspberrypi
 
