@@ -38,6 +38,9 @@
 Installation
 -----------------
 
+Goto folder where you want to install
+
+
 **Method 1**
 ```Shell
 curl -L https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/Python-Latest/Install/install | bash
