@@ -57,7 +57,7 @@ fraction がプログレスバーのパーセンテージを表わします。se
     gtk.timeout_remove(timer)
 
 
-
+# 元
 プログレスバーを使ってみます。プログレスバーは次のように作ります。
 
 progress = gtk.ProgressBar()
