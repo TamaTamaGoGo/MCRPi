@@ -30,9 +30,9 @@
 # Readme.md is available for **English**・**日本語**で閲覧できます
 **Please watch Readme.md  Readme.mdを閲覧ください**
 
-**English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/en#mcrpi---minecraft-for-raspberrypi
+**English** https://bit.ly/MCRPi-Readme-PythonLatest-en
 
-**日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/jp#mcrpi---minecraft-for-raspberrypi
+**日本語** https://bit.ly/MCRPi-Readme-PythonLatest-jp
 
 # Automatic install 自動インストール
 Installation
