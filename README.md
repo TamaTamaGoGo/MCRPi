@@ -35,6 +35,18 @@
 **日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/jp#mcrpi---minecraft-for-raspberrypi
 
 # Automatic install 自動インストール
+Installation
+-----------------
+
+**Method 1**
+```Shell
+curl -L https:// | bash
+```
+
+**Method 2**
+```Shell
+wget -O install.sh https:// && sudo chmod 777 install.sh && sudo bash install.sh
+```
 **English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/en#mcrpi---minecraft-for-raspberrypi
 
 **日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/jp#mcrpi---minecraft-for-raspberrypi
