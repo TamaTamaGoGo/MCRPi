@@ -47,9 +47,6 @@ curl -L https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/Python-Latest/Insta
 ```Shell
 wget -O install https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/Python-Latest/Install/install && sudo chmod 777 install && ./install
 ```
-**English** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/en#mcrpi---minecraft-for-raspberrypi
-
-**日本語** https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tree/Python-Latest/jp#mcrpi---minecraft-for-raspberrypi
 
 # All Release is available to check here リリースはこちらから確認可能です
 https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tags
