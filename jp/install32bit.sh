@@ -3,15 +3,16 @@
 (
 
 ##Information
-echo "MCRPi project use Shell and Python(?~ and zenity"
+echo "MCRPiは、Bash、Python、Tkinterを使用します"
 
 #pre zenity
-echo Installing zenity ; sleep 1
-sudo apt-get install -y zenity ; sleep 1
-dir=`pwd`
+echo Installing python-3.8 ; sleep 1
+sudo apt-get install -y python-3.8 ; sleep 1
+dir=$(pwd)
 
-echo "# ディレクトリーを作成しています"
+echo "# ${dir}にディレクトリーを作成しています"
 ##zenity --progress --time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease wait...'
+cd ${dir}
 echo "2"
 mkdir MCRPi
 sleep 1
