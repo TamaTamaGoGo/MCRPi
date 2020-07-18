@@ -21,7 +21,7 @@ You can download and install with this command.
 
 You only need to run this command.
 
-    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/install
+    sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-Latest/en/install
     sudo chmod +x install
     ./install
     
