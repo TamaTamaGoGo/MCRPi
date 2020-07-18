@@ -1,2 +1,2 @@
-# This runscript will moved to minecraftscript repository.
+# This runscript will move to minecraftscript repository.
 # Runscriptフォルダーは、Minecraftscriptリポシトリーに移行されます
