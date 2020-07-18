@@ -30,9 +30,9 @@
 # Readme.md is available for **English**・**日本語**で閲覧できます
 **Please watch Readme.md  Readme.mdを閲覧ください**
 
-**English** https://bit.ly/MCRPi-Readme-PythonLatest-en
+**English** https://bit.ly/MCRPi-Readme-en-PythonLatest
 
-**日本語** https://bit.ly/MCRPi-Readme-PythonLatest-jp
+**日本語** https://bit.ly/MCRPi-Readme-jp-PythonLatest
 
 # Automatic install 自動インストール
 Installation
