@@ -4,7 +4,7 @@ wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-Raspbe
 Latestversion=$(cat Latestversion.txt)
 currentlyversion=$(cat Version.txt)
 if [ "$Latestversion" = "$currentlyversion" ]; then
-    echo "MCRPi is already currentry version"
+    echo "MCRPi is already currently version"
     fi
 else
     echo "MCRPi is now Up to Date"
