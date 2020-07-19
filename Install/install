@@ -1,8 +1,10 @@
+wget 
 MACHINE_TYPE=$(uname -m)
 LANG=$(locale language)
+ver=$(cat version.txt)
 
 if [ "$LANG" = "ja_JP" ]; then
-    echo "Japanese Mode"
+    echo "日本語に選択されました"
     lang=jp
     fi
 else
