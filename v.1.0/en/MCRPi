@@ -9,4 +9,4 @@ if [ ${chose} = 'Start Minecraft Launcher' ]; then
   sudo mv -f -b -v -T ${dir}/.minecraft ${HOME}/.minecraft
   echo 'Finish prepare'
   echo 'starting launcher'
-  ${dir}/jdk1.8.0_241/bin/java -jar 
+  ${dir}/jdk1.8.0_241/bin/java -jar

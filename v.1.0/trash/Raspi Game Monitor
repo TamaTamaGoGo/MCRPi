@@ -6,7 +6,7 @@ def tempmonUI():
     w = Tk()
     w.title('Raspi Game Monitor')
     w.resizable(False, False)
-    
+
     l1 = Label(w, text='Temp: ')
     l1.config(font=("Courier", 20))
     l1.grid(row=0, column=0)
@@ -51,35 +51,35 @@ def tempmonUI():
     _thread.start_new_thread(_update, ())
     w.mainloop()
 
-tempmonUI() 
+tempmonUI()
 
 def button_click():
     print('value = %d' % myval.get())
 
 def value_changed(*args):
     print('value = %d' % myval.get())
-    
+
 if __name__ == '__main__':
-    
+
     root = Tk()
     root.title('Scale')
     root.columnconfigure(0, weight=1);
     root.rowconfigure(0, weight=1);
-    
+
     # Frame
     frame1 = ttk.Frame(root, padding=10)
     frame1.grid(sticky=(N,W,S,E))
     frame1.columnconfigure(0, weight=1);
     frame1.rowconfigure(0, weight=1);
-    
+
     # スケールの作成
     myval = DoubleVar()
     myval.trace("w", value_changed)
-    
+
     sc = ttk.Scale(
         frame1,
         variable=myval,
-        orient=HORIZONTAL, 
+        orient=HORIZONTAL,
         length=200,
         from_=0,
         to=255)
@@ -87,9 +87,9 @@ if __name__ == '__main__':
 
     #Button
     button1 = ttk.Button(
-        frame1, 
-        text='OK', 
+        frame1,
+        text='OK',
         command=button_click)
     button1.grid(row=0, column=1, padx=5, sticky=(E))
-        
+
     root.mainloop()

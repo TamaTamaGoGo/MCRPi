@@ -1,4 +1,4 @@
-wget 
+wget
 MACHINE_TYPE=$(uname -m)
 LANG=$(locale language)
 ver=$(cat version.txt)
