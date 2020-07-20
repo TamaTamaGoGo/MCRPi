@@ -19,14 +19,14 @@ echo "MCRPi.pyを再ダウンロードしています"
 sudo rm MCRPi.py
 wget -O MCRPi.py https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.1.0/jp/GUI/MCRPi.py
 echo "ゲームモニターを再ダウンロードしています"
-wget -O GameMonitor.py https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.1.0/Utility/${lang}/GameMonitor.py
+wget -O GameMonitor.py https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.1.0/Utilityjp/GameMonitor.py
 echo "アップデートに間違いがないかチェックしています"
 echo "チェック中-MCRPi.py"
 Checkver=$(cat MCRPiNow.version)
 if [ "$Checkver" = "$new_ver" ]; then
     echo "[OK] 最新のバージョンにアップデートされました"
 else
-    cat Failedfike=$(cat Failfile.txt)
+    Failedfile=$(cat Failfile.txt)
     echo "[Fail] $Failedfile"
     echo "が、正しくインストールされていないようです"
     echo "$new_verへ、最ダウンロードします。"
