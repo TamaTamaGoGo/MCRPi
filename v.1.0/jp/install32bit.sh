@@ -1,6 +1,5 @@
 #!/bin/sh
 
-(
 
   ##Information
   echo "MCRPiは、Bash、Python、Tkinterを使用します"
@@ -80,13 +79,3 @@
   sudo bash -c "echo gpu_mem=248>> /boot/config.txt"
   sudo sed -i -e "s/^gpu_mem=.*/gpu_mem=248/g" /boot/config.txt
   echo "40"
-
-) |
-  zenity --progress \
-    --time-remaining --text='Install and Initalize MCRPi \nIt only takes minutes \nPlease Wait...\n' --auto-kill --percentage=0 --title='install and Initalize MCRPi'
-
-if [ "$?" = -1 ]; then
-  zenity --error \
-    --text="Setting canceled"
-  #--text="Error Occured \nBut Don't give up \nLet's try again."
-fi
