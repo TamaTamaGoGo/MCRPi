@@ -31,8 +31,9 @@ Wait for install...
 
 # Change Raspi Setting
 
-you need to change your Raspi Setting. At first type sudo raspi-config This is
-Raspi Setting maneger with CUI.
+(you need to change your Raspi Setting. At first type sudo raspi-config This is
+Raspi Setting maneger with CUI.)
+Feature Update, It will automatically MCRPi will configure to you.
 
 Next go to Advanced Setting with push keyboard.
 
