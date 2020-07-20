@@ -1,6 +1,6 @@
     import tkinter
     from tkinter import ttk
-    import time    #追加
+    import time    #追�
 
 次に、プログレスバーの「mode」オプションを「determinate」に修正します。
 
@@ -23,7 +23,7 @@
 time.sleep(0.02) while ループを使って value を 1 から 100 まで 1 ずつ増やしてい
 くことで、Progressbar を進めていきます。
 
-但し、self.progress.update()を入れないと、画面の更新がされないので必ず入れてくだ
+但し、self.progress.update()を入れないと、画面の更新がされないので必ず入れてく�
 さい。
 
 # Another site
