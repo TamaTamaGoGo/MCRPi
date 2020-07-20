@@ -7,7 +7,6 @@ ver=$(cat version.txt)
 if [ "$LANG" = "ja_JP" ]; then
     echo "日本語に選択されました"
     lang=jp
-    fi
 else
     echo "Automatically selected to English"
     lang=en
@@ -19,7 +18,6 @@ if [ "$MACHINE_TYPE" = "aarch64" ]; then
     wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/release/${ver}/${lang}/install64bit
     sudo chmod +x install64bit
     ./install64bit ${lang}
-    fi
 else
     echo "Mode:Not aarch64 32bit"
     wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/release/${ver}/${lang}/install32bit
