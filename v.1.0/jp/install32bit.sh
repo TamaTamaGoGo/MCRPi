@@ -41,25 +41,25 @@
   sudo apt-get install -y mesa-utils
   echo "20"
 
-  echo "# リポジトリーを使わずにJava 8をインストールしています"
-  if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
-    #	lxterminal --working-directory=${dir}/jdk -e wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."
-    sudo chmod +x download2.sh
-    ./download2.sh
-  fi
+  #echo "# リポジトリーを使わずにJava 8をインストールしています"
+#  if [ ! -f jdk-8u241-linux-arm32-vfp-hflt.tar.gz ]; then
+#    #	lxterminal --working-directory=${dir}/jdk -e wget https://www.dropbox.com/s/h6smy7w7dsikdis/jdk-8u241-linux-arm32-vfp-hflt.tar.gz 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --title="Downloading File..."
+#    sudo chmod +x download2.sh
+#    ./download2.sh
+#  fi
 
   echo "25"
 
-  echo "# 展開しています"
-  sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C /jdk
+#  echo "# 展開しています"
+#  sudo tar -zxf jdk-8u241-linux-arm32-vfp-hflt.tar.gz -C /jdk
 
   #echo "# Installing oracle java8 using repo"
   #sudo apt-get install openjdk-8-jdk
 
-  echo "# lwjgl3arm32を準備しています"
-  if [ ! -d ~/lwjgl3arm32 ]; then
-    mkdir ~/lwjgl3arm32
-  fi
+#  echo "# lwjgl3arm32を準備しています"
+ # if [ ! -d ~/lwjgl3arm32 ]; then
+#    mkdir ~/lwjgl3arm32
+#  fi
   echo "30"
 
 #  echo "# Minecraft Server 1.15.2をダウンロードしています"
