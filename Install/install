@@ -1,3 +1,4 @@
+#!/bin/bash
 wget 
 MACHINE_TYPE=$(uname -m)
 LANG=$(locale language)
