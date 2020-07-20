@@ -5,7 +5,6 @@ Latestversion=$(cat Latestversion.txt)
 currentlyversion=$(cat Version.txt)
 if [ "$Latestversion" = "$currentlyversion" ]; then
     echo "MCRPi is already currently version"
-    fi
 else
     echo "MCRPi is now Up to Date"
     fi
