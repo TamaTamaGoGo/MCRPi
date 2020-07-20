@@ -6,9 +6,9 @@
   ∟ There has big issues on script.
   
 
-- Changed the way to devide verison
+- Changed the way to divide verison
 
-  ∟ Changed devide with commit to directory.
+  ∟ Changed divide with commit to directory.
   
 - Add next stage of dev
 
