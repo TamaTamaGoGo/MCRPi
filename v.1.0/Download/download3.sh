@@ -1,0 +1,1 @@
+cd MinecraftServer && wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# ダウンロード詳細： \2\/s, 残り \3/' | zenity --progress --auto-kill --auto-close --title="ファイルをダウンロード中..."
