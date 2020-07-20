@@ -22,7 +22,7 @@ wget -O MCRPi.py https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraf
 echo "ゲームモニターを再ダウンロードしています"
 wget -O GameMonitor.py https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.1.0/Utility/${lang}/GameMonitor.py
 echo "アップデートに間違いがないかチェックしています"
-echo "チェック中:MCRPi.py"
+echo "チェック中-MCRPi.py"
 Mver=${cat MCRPi.py.version}
 if [ "$Mver" = "$new_ver" ]; then
     echo "[OK] MCRPi.py"
