@@ -27,7 +27,6 @@ MINECRAFT_CLIENTTOKEN=99dd6764-7520-4105-b753-79acb47359a7
 MINECRAFT_UUID=8637b649-a786-4258-8db2-ced20d7d60b7
 MINECRAFT_VERSION=1.16.1-forge1.16.1-32.0.23
 
-
 # SHOULD NOT NEED TO EDIT BELOW THIS LINE
 
 # long list of paths from the minecraft logged commandline
@@ -36,41 +35,41 @@ TWEAK_CLASS=net.minecraftforge.fml.common.launcher.FMLTweaker
 # thanks to xRoyx on the nvidia dev forums for this update.
 # the authtoken changes daily, so we need to login to authenticate
 
-MINECRAFT_ATOKEN="$(\
-curl -i \
-  -H "Accept:application/json" \
-  -H "content-Type:application/json" \
-  https://authserver.mojang.com/authenticate \
-  -X POST \
-  --data '{"agent": {"name": "Minecraft","version": 1}, "username": "'"$MINECRAFT_LOGIN"'", "password": "'"$MINECRAFT_PASSWORD"'",  "clientToken": "'"$MINECRAFT_CLIENTTOKEN"'" }' \
-  | sed '/accessToken":"/!d;s//&\n/;s/.*\n//;:a;/",/bb;$!{n;ba};:b;s//\n&/;P;D' \
+MINECRAFT_ATOKEN="$(
+  curl -i \
+    -H "Accept:application/json" \
+    -H "content-Type:application/json" \
+    https://authserver.mojang.com/authenticate \
+    -X POST \
+    --data '{"agent": {"name": "Minecraft","version": 1}, "username": "'"$MINECRAFT_LOGIN"'", "password": "'"$MINECRAFT_PASSWORD"'",  "clientToken": "'"$MINECRAFT_CLIENTTOKEN"'" }' |
+    sed '/accessToken":"/!d;s//&\n/;s/.*\n//;:a;/",/bb;$!{n;ba};:b;s//\n&/;P;D'
 )"
 # '
 
 echo "todays access token = ""$MINECRAFT_ATOKEN"
 
-MINECRAFT_UUID="$(\
-curl -X POST -H 'Content-Type: application/json' https://api.mojang.com/profiles/minecraft --data '"'"$MINECRAFT_USERNAME"'"' \
-| sed '/id":"/!d;s//&\n/;s/.*\n//;:a;/",/bb;$!{n;ba};:b;s//\n&/;P;D' \
+MINECRAFT_UUID="$(
+  curl -X POST -H 'Content-Type: application/json' https://api.mojang.com/profiles/minecraft --data '"'"$MINECRAFT_USERNAME"'"' |
+    sed '/id":"/!d;s//&\n/;s/.*\n//;:a;/",/bb;$!{n;ba};:b;s//\n&/;P;D'
 )"
 
 echo "MINECRAFT_UUID=""$MINECRAFT_UUID"
 
 # run minecraft with all the right commandline options
 /opt/jdk/jdk1.8.0_211/bin/java \
-    -Xmn256M -Xmx"${Xmx}"M \
-    -XX:+UseConcMarkSweepGC \
-    -XX:+CMSIncrementalMode \
-    -XX:-UseAdaptiveSizePolicy \
-    -Djava.library.path="$MINECRAFT_NATIVE_PATH" \
-    -cp "$CP" \
+  -Xmn256M -Xmx"${Xmx}"M \
+  -XX:+UseConcMarkSweepGC \
+  -XX:+CMSIncrementalMode \
+  -XX:-UseAdaptiveSizePolicy \
+  -Djava.library.path="$MINECRAFT_NATIVE_PATH" \
+  -cp "$CP" \
   net.minecraft.launchwrapper.Launch \
-    --username "$MINECRAFT_USERNAME" \
-    --accessToken "$MINECRAFT_ATOKEN" \
-    --uuid "$MINECRAFT_UUID" \
-    --version "$MINECRAFT_VERSION" \
-    --userProperties {} \
-    --gameDir ~/.minecraft \
-    --assetsDir ~/.minecraft/assets \
-    --assetIndex "$MINECRAFT_VERSION" \
-    --tweakClass "$TWEAK_CLASS"
+  --username "$MINECRAFT_USERNAME" \
+  --accessToken "$MINECRAFT_ATOKEN" \
+  --uuid "$MINECRAFT_UUID" \
+  --version "$MINECRAFT_VERSION" \
+  --userProperties {} \
+  --gameDir ~/.minecraft \
+  --assetsDir ~/.minecraft/assets \
+  --assetIndex "$MINECRAFT_VERSION" \
+  --tweakClass "$TWEAK_CLASS"
