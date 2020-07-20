@@ -13,7 +13,7 @@
   dir=$PWD
 
   echo "# $dirにディレクトリーを作成しています"
-  ##zenity --progress --time-remaining --text='Install and Initalize MCPi \nIt only takes minutes \nPlease wait...'
+  ##zenity --progress --time-remaining --text='Install and Initialize MCPi \nIt only takes minutes \nPlease wait...'
   cd "$dir"
   echo "2"
   mkdir MCRPi
