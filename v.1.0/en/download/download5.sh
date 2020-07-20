@@ -1,0 +1,1 @@
+wget https://www.dropbox.com/s/xzegvb4srsuvhl3/lwjgl3arm32.tar.gz 2>&1 | sed -u 's/.* \([0-9]\+%\)\ \+\([0-9.]\+.\) \(.*\)/\1\n# Downloading at \2\/s, ETA \3/' | zenity --progress --auto-kill --auto-close --title="Downloading File..."
