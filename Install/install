@@ -1,5 +1,5 @@
 #!/bin/bash
-wget 
+wget -O version.txt https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/Update/LatestVersion.txt
 MACHINE_TYPE=$(uname -m)
 LANG=$(locale language)
 ver=$(cat version.txt)
