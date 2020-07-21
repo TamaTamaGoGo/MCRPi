@@ -25,7 +25,7 @@
 #  sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/jp/download/download2.sh
 #  sudo wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/master/en/download/download3.sh
   #cd Minecraft
-  wget -O download https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/v1.0/install/installlist.sh
+  wget -O download https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/v1.0/install/installist.sh
   sudo chmod +x download
   echo "ダウンロードスクリプトを実行しています"
   ./download
