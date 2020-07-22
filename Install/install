@@ -6,11 +6,10 @@ ver=$(wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/dev-firststage/U
 if [ "$lan" = "ja_JP" ]; then
     echo "日本語に選択されました"
     lang=jp
-    fi
 else
     echo "Automatically selected to English"
     lang=en
-    fi
+fi
 
 echo "Starting install script"
 if [ "$MACHINE_TYPE" = "aarch64" ]; then
@@ -18,10 +17,9 @@ if [ "$MACHINE_TYPE" = "aarch64" ]; then
     wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/${lang}/install64bit
     sudo chmod +x install64bit
     ./install64bit
-    fi
 else
     echo "Mode:Not aarch64 32bit"
     wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/${lang}/install32bit
     sudo chmod +x install32bit
     ./install32bit
-    fi
+fi
