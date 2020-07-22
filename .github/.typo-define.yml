@@ -17,7 +17,7 @@ dictionaries:
 
 # Any files/folders we should ignore?
 excluded_files:
-  - ".github/.typo-ci.yml"
+  - ".github/.typo-define.yml"
 
 # Any typos we should ignore?
 excluded_words:
