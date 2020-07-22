@@ -25,6 +25,8 @@ excluded_words:
   - zenity
   - jpv
   - nogui
+  - ver
+  - installist
 
 # Would you like filenames to also be spellchecked?
 spellcheck_filenames: true
