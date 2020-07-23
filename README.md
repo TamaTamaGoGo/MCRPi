@@ -53,3 +53,24 @@ wget -O install https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/Python-Late
 
 # All Release is available to check here リリースはこちらから確認可能です
 https://github.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/tags
+
+
+# People
+**Tama(TamaTamaGoGo)**
+Leader
+
+-develop, debug, make script
+
+
+**Other's**
+****RpiMike****
+
+Thanks for sharing way to play Minecraft on Raspberry Pi!
+
+****Youtuber****
+
+Thanks for sharing way to more FPS!
+
+****OptiFine Developer****
+
+Thanks for developing!
