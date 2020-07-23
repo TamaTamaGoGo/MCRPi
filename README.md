@@ -61,16 +61,18 @@ Leader
 
 -develop, debug, make script
 
-
+ 
 **Other's**
 ****RpiMike****
 
 Thanks for sharing way to play Minecraft on Raspberry Pi!
 
+ 
 ****Youtuber****
 
 Thanks for sharing way to more FPS!
 
+ 
 ****OptiFine Developer****
 
 Thanks for developing!
