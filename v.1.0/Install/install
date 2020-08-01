@@ -1,6 +1,6 @@
 MACHINE_TYPE=$(uname -m)
 lan=$(locale language)
-ver=$(wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/dev-firststage/Update/LatestVersion.txt && cat LatestVersion.txt)
+ver=$(wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/Update/LatestVersion.txt && cat LatestVersion.txt)
 
 if [ "$lan" = "ja_JP" ]; then
     echo "日本語に選択されました"
