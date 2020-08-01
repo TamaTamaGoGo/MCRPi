@@ -1,12 +1,10 @@
-wget
 MACHINE_TYPE=$(uname -m)
-LANG=$(locale language)
-ver=$(cat version.txt)
+lan=$(locale language)
+ver=$(wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/Update/LatestVersion.txt && cat LatestVersion.txt)
 
-if [ "$LANG" = "ja_JP" ]; then
+if [ "$lan" = "ja_JP" ]; then
     echo "日本語に選択されました"
     lang=jp
-    fi
 else
     echo "Automatically selected to English"
     lang=en
@@ -15,13 +13,12 @@ else
 echo "Starting install script"
 if [ "$MACHINE_TYPE" = "aarch64" ]; then
     echo "Mode:aarch64 64bit"
-    wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.0.1/en/install64bit
+    wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/${lang}/install64bit
     sudo chmod +x install64bit
-    ./install64bit ${lang}
-    fi
+    ./install64bit
 else
     echo "Mode:Not aarch64 32bit"
-    wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi---MineCraft-for-RaspberryPi/Python-v.0.1/en/install32bit
+    wget https://raw.githubusercontent.com/TamaTamaGoGo/MCRPi/release/${lang}/install32bit
     sudo chmod +x install32bit
-    ./install32bit ${lang}
+    ./install32bit
     fi
